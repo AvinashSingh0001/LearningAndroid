@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
          supportActionBar?.hide()
         Handler().postDelayed({
-            var intent= Intent(this,MainActivity2::class.java)
+            var intent= Intent(this,SignUp::class.java)
             startActivity(intent)
         },3000)
     }
