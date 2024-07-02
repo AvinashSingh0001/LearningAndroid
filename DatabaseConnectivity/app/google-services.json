@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588782479438",
+    "project_id": "database-connectivity-33fb1",
+    "storage_bucket": "database-connectivity-33fb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588782479438:android:406438e81ac659a210fb1f",
+        "android_client_info": {
+          "package_name": "com.example.databaseconnectivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Sfmyn8BFeW0wjiZCZFLFpfayoGvC4T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
