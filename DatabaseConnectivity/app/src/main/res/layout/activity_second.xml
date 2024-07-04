@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:background="#0000FF"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".SecondActivity">
@@ -25,7 +24,23 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/art"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="30dp"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="EMAIL" />
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="ID" />
 </LinearLayout>
