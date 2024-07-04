@@ -93,5 +93,26 @@
             android:layout_gravity="center"
             android:text="Sign Up" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:text="If you already have an Account then, please "
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signIn"
+            android:text="Sign In"
+            />
+
+                </LinearLayout>
+
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 package com.example.databaseconnectivity
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             val passwor= findViewById<TextInputEditText>(R.id.inputText2)
             val nam= findViewById<TextInputEditText>(R.id.inputText1)
             val useriD= findViewById<TextInputEditText>(R.id.inputText3)
+            val signIn= findViewById<Button>(R.id.signIn)
 
         signUp.setOnClickListener {
             val email= emai.text.toString()
@@ -42,5 +44,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Failed, Sorry for inconvenience.", Toast.LENGTH_SHORT).show()
             }
         }
+       signIn.setOnClickListener {
+           val intent= Intent(this,SignInActivity::class.java)
+           startActivity(intent)
+       }
     }
 }

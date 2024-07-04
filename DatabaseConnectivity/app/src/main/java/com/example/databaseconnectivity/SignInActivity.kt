@@ -21,11 +21,12 @@ class SignInActivity : AppCompatActivity() {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.activity_sign_in)
+
         val signin= findViewById<Button>(R.id.submit)
         val user=  findViewById<TextInputEditText>(R.id.et1)
         val pass= findViewById<TextInputEditText>(R.id.et2)
+        val signUp= findViewById<Button>(R.id.SignUp)
 
         signin.setOnClickListener {
             val userName= user.text.toString()
@@ -39,6 +40,10 @@ class SignInActivity : AppCompatActivity() {
             }else{
                 Toast.makeText(this,"Please enter your User Id",Toast.LENGTH_SHORT).show()
             }
+        }
+        signUp.setOnClickListener {
+            val intent= Intent(this,MainActivity::class.java)
+            startActivity(intent)
         }
     }
 
