@@ -31,6 +31,14 @@
         android:layout_height="wrap_content"
         android:text="Dialogue box part 2"
         android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice"
+        android:text="choice "
+        android:layout_gravity="center"
+        android:textSize="25dp"
+         />
 
     <Button
         android:id="@+id/btn3"
@@ -39,6 +47,14 @@
         android:text="Dialogue box part 3"
         android:layout_margin="4dp"
         android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice1"
+        android:text="choice "
+        android:layout_gravity="center"
+        android:textSize="25dp"
         />
 
 </LinearLayout>
