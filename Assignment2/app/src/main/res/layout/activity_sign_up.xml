@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Phone Directory"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_gravity="center"
+        android:textSize="45dp"
+        android:layout_marginTop="30dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/signin"
+        app:helperText="*Required"
+        android:layout_marginTop="23dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="40dp"
+            android:id="@+id/name"
+            android:hint="Enter Your Name"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/signin"
+        app:helperText="*Required"
+        android:layout_marginTop="23dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="40dp"
+            android:id="@+id/userId"
+            android:hint="Enter Your User Id"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/signin"
+        app:helperText="*Required"
+        android:layout_marginTop="23dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="40dp"
+            android:id="@+id/password"
+            android:hint="Enter Your Password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:startIconDrawable="@drawable/signin"
+        app:helperText="*Required"
+        android:layout_marginTop="23dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail"
+            android:paddingStart="40dp"
+            android:hint="Enter Your Email id"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:id="@+id/btnSignUp"
+        android:layout_marginTop="23dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="If you have already an account then, "/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnSignIn"/>
+    </LinearLayout>
+</LinearLayout>

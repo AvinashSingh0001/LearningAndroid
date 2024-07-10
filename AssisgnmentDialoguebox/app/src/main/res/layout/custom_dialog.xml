@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/check" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contratulations For Showing Up Today!"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="23dp"
+        android:id="@+id/tview1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How is your App development journey going on?"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:textSize="15dp"
+        android:id="@+id/tview2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Feedback"
+            android:id="@+id/btn1"
+
+            android:layout_margin="5dp"
+            android:backgroundTint="#FF0000"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="89dp"
+            android:id="@+id/btn2"
+            android:text="Submit"
+
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#059142"
+            />
+    </LinearLayout>
+</LinearLayout>
