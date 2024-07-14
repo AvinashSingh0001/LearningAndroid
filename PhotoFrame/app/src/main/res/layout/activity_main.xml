@@ -25,20 +25,60 @@
 
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/pic0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginLeft="40dp"
+            android:alpha="1"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/avinash" />
+            app:layout_constraintVertical_bias="0.504"
+            app:srcCompat="@drawable/pic1" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.561"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/pic2" />
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:alpha="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.621"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic3" />
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic4"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="-43dp"
+            tools:layout_editor_absoluteY="16dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-    android:text="Avinash Kumar Singh"
+        android:text="Avinash Kumar Singh"
         android:layout_gravity="center"
         android:textSize="30dp"
         android:layout_marginLeft="44dp"
@@ -48,14 +88,14 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/prev"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:background="@drawable/backg"
             app:srcCompat="@android:drawable/ic_media_rew" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/next"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
