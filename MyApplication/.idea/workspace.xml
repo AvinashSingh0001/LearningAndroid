@@ -16,7 +16,28 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a94fb2a-2f8f-4d5b-88d4-db23371f0ec3" name="Changes" comment="" />
+    <list default="true" id="7a94fb2a-2f8f-4d5b-88d4-db23371f0ec3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HealthcareApp/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HealthcareApp/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HealthcareApp/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HealthcareApp/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HealthcareApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HealthcareApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alertbox/app/src/main/res/layout/custom_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Alertbox/app/src/main/res/layout/custom_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alertbox/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Alertbox/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthcareApp/app/src/main/java/data/HealthRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthcareApp/app/src/main/java/model/HealthMetric.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthcareApp/app/src/main/java/model/User.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthcareApp/app/src/main/java/network/ApiService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthcareApp/app/src/main/java/ui/BaseActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthcareApp/app/src/main/java/ui/BaseFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthcareApp/app/src/main/res/layout/health_repository.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImplictorExplictIntent" beforeDir="false" afterPath="$PROJECT_DIR$/../ImplictorExplictIntent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication2" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SplashScreen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SplashScreen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SplashScreen/app/src/main/java/com/example/splashscreen/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../SplashScreen/app/src/main/java/com/example/splashscreen/MainActivity.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +51,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -51,8 +75,9 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/aksda/AndroidStudioProjects/MyApplication",
+    "last_opened_file_path": "C:/Users/aksda/AndroidStudioProjects/MyApplication2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2"
@@ -122,9 +147,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

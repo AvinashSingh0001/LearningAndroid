@@ -1,5 +1,6 @@
 package com.example.listviewadvanced
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
@@ -36,6 +37,18 @@ class MainActivity : AppCompatActivity() {
 
         listView.adapter=MyAdapter(this,userArrayList)
 
+        listView.setOnItemClickListener { parent, view, position, l ->
+            val userName = name[position];
+            val userPhone= phonenumber[position]
+            val image= imgId[position]
 
+            val intent = Intent(this,UserActivity::class.java)
+            intent.putExtra("Name",userName)
+            intent.putExtra("Phone",userPhone)
+            intent.putExtra("Image",image)
+            startActivity(intent)
+
+        }
+        
     }
 }

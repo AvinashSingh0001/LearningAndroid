@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Alert box</string>
+    <string name="congratulation_message">Congratulation For Today!</string>
+    <string name="app_development_journey">How is your App development journey going on?</string>
 </resources>

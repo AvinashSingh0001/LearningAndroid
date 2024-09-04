@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "131296235853",
+    "project_id": "health-care-f5e0a",
+    "storage_bucket": "health-care-f5e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131296235853:android:175d5437c699182ef6e704",
+        "android_client_info": {
+          "package_name": "com.example.healthcareapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-pQ6gtEFDh5GNnUb2QqHBiz4Hz56eB-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
